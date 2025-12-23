@@ -11,7 +11,7 @@
 
 ## 📖 Sobre o Projeto
 
-**System Habit Tracker** é um aplicativo mobile de **habit tracking gamificado**, desenvolvido com tecnologias web e empacotado para mobile utilizando **Apache Cordova**.
+**The System** é um aplicativo mobile de **habit tracking gamificado**, desenvolvido com tecnologias web e empacotado para mobile utilizando **Apache Cordova**.
 
 Inspirado na estética de “Sistema” presente em obras de fantasia, o app transforma metas da vida real em **jornadas**, **missões**, **XP**, **níveis** e **desafios de progressão**, criando uma experiência imersiva de evolução pessoal.
 
@@ -68,3 +68,8 @@ Esse modelo garante que o nível represente consistência real, não apenas repe
 - **Apache Cordova**
 - LocalStorage / IndexedDB
 - Arquitetura modular e orientada a estado
+
+⚠️ Aviso Legal
+
+Este é um projeto original, apenas inspirado na estética de interfaces de “Sistema” comuns em obras de fantasia.
+Não possui qualquer afiliação com Solo Leveling ou seus detentores de direitos.
