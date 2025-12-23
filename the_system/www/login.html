@@ -4,42 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>System Awakening Login</title>
+
     <link href="https://fonts.googleapis.com" rel="preconnect"/>
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+
     <link rel="stylesheet" href="css/style.css"> 
 </head>
+   <body>
 
-    <header>
-        <div>
-            <h1>SYSTEM</h1>
-            <h2>PERSONAL GROWTH INTERFACE</h2>
-        </div>
+    <header class="brand">
+        <h1>THE SYSTEM</h1>
+        <div class="line"></div>
+        <h2>PERSONAL GROWTH INTERFACE</h2>
     </header>
-<body>
-    <main>
+
+    <main class="container">
         <!--LOGIN SECTION-->
-    <section>
-        <div class="Login">
-            <!--USERNAME INPUT-->
-            <div class="Input">
-                <label for="">HUNTER NAME</label>
-                <div class="icons de input">
-                    <span class="material-symbols-outlined absolute left-0 text-gray-500 group-focus-within/input:text-primary transition-colors" style="font-size: 20px;">
-                            person
-                        </span>
-                    <input type="text" placeholder="Username / Email" type="text">
-                </div>
+    <section class="card">
+        <form class="form">
+         <div class="field">
+             <label>HUNTER NAME</label>
+            <div class="input-wrap">
+                <span class="material-symbols-outlined absolute left-0 text-gray-500 group-focus-within/input:text-primary transition-colors" style="font-size: 20px;">person</span>
+                <input type="text" placeholder="Username / Email">
             </div>
-        <!--PASSWORD INPUT-->
+         </div>
+
+                <!--PASSWORD SECTION-->
+             <div class="field">
+          <label>PASSCODE</label>
+          <div class="input-wrap">
+            <span class="material-symbols-outlined icon">lock</span>
+            <input type="password" placeholder="Password" />
+            <button class="icon-btn" type="button" aria-label="Mostrar senha">
+              <span class="material-symbols-outlined">visibility_off</span>
+            </button>
+          </div>
         </div>
+        <button class="btn" type="button">
+          AWAKEN <span class="material-symbols-outlined">arrow_forward</span>
+        </button>
 
-
+        <div class="links">
+          <button type="button" class="link">Initialize New Profile</button>
+          <button type="button" class="link muted">Observer Mode (Guest)</button>
+        </div>
+      </form>
     </section>
-    
-    </main>
-
+  </main>
 </body>
 </html>
